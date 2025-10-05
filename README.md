@@ -1,3 +1,3 @@
 # React project
 
-- [Click me to show website](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) 
+- [Click me to show website](https://aquamarine-rugelach-337c39.netlify.app/) 
