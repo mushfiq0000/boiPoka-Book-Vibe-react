@@ -1,15 +1,18 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
     const links = <>
-        <li className="m-3">Home</li>
-        <li className="m-3">Listed Books</li>
+        <Link to='/'><li className="m-3">Home</li></Link>
+
+        <Link to='/Listedbooks'><li className="m-3">Listed Books</li></Link>
+
         <li className="m-3">Pages to Read</li>
 
         
     </>
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
